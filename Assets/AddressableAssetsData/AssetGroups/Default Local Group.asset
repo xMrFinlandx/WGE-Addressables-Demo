@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: aedeede2f8cfc184fa6791b0bca42d4e
+  m_SerializeEntries:
+  - m_GUID: 05b5773f2e2765549aecc627861032b5
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 13.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b0e23f85cb50394a801c2dbdf3b7103
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 233620f677238e04b87b679ffb3bc2af
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 5.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4596f9b4abd5a1144be9b04160c5530f
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 9.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45eb09ef617b9604993532a16a4c39cd
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 10.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45f8e897006aba747a952a08ce845f3b
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 11.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57edfad0ad972734aa3c478e422f1342
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 7.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6890ed7976cc5494c93d5ac7124f334a
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 3.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8aeb90586872b3a44bac496cb7e83eb4
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 4.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fcb5112ddaefda4ebf00aad96721fdf
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 8.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc57eaa15de58644da902cb51fb7e986
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 15.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be4461a2d1c016c468421eb7dd22187a
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 12.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5b20970cbb269a48b0a2d6f26127e40
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 14.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8fd7cf9d53aef1409f069859b46fb9a
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 6.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f8fb614b61503f642a46971ba3a3f906, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e12de2b9805e9d349a8839a2112d9dda, type: 2}
+    - {fileID: 11400000, guid: 93047d10793da274ab1828ce9f63f9a6, type: 2}

@@ -1,0 +1,679 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2591101892737593160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf535b62f6d4c2987341bc7b3cd1fff, type: 3}
+  m_Name: Editor Only Data
+  m_EditorClassIdentifier: 
+  _sceneNodeData:
+  - NodeName: Adr Demo 6
+    SceneAsset: {fileID: 102900000, guid: f8fd7cf9d53aef1409f069859b46fb9a, type: 3}
+    SceneAssetGuid: f8fd7cf9d53aef1409f069859b46fb9a
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 6
+    BuildIndex: -1
+    Guid: c7ef4999-28bd-42b6-9d15-e8958d862dc1
+    Position: {x: -653, y: 210}
+    PortsData:
+    - Name: Right T
+      Guid: 31b36912-460f-44b8-8b2d-9c7dd22faee7
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Right B
+      Guid: d8343c4b-fedf-4d7a-a111-cc7096ef4c4e
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Top
+      Guid: d3e96362-ed84-4ad8-9656-32edebdf005e
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 6.unity
+  - NodeName: Adr Demo 4
+    SceneAsset: {fileID: 102900000, guid: 8aeb90586872b3a44bac496cb7e83eb4, type: 3}
+    SceneAssetGuid: 8aeb90586872b3a44bac496cb7e83eb4
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 4
+    BuildIndex: -1
+    Guid: 216697c9-7f67-481f-9aec-91ac6505bdf8
+    Position: {x: -407, y: 277}
+    PortsData:
+    - Name: Top
+      Guid: 620c45db-626f-48b7-9c9a-6677a2bada82
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Left
+      Guid: 46f3f7dc-90db-49d6-8793-d57ed71067d9
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 4.unity
+  - NodeName: Adr Demo 5
+    SceneAsset: {fileID: 102900000, guid: 233620f677238e04b87b679ffb3bc2af, type: 3}
+    SceneAssetGuid: 233620f677238e04b87b679ffb3bc2af
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 5
+    BuildIndex: -1
+    Guid: cdc5779e-299e-4cba-b51a-715f8c3ae0fe
+    Position: {x: -166, y: 277}
+    PortsData:
+    - Name: Top
+      Guid: 5c6ce3d1-ea99-4daf-9d3b-198ed11506cf
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Right
+      Guid: 64a8f543-052f-406d-94c5-fcbcf870d259
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 5.unity
+  - NodeName: Adr Demo 7
+    SceneAsset: {fileID: 102900000, guid: 57edfad0ad972734aa3c478e422f1342, type: 3}
+    SceneAssetGuid: 57edfad0ad972734aa3c478e422f1342
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 7
+    BuildIndex: -1
+    Guid: dc4b4c16-ba25-498c-a144-c1afa313b20e
+    Position: {x: 72, y: 255}
+    PortsData:
+    - Name: Left
+      Guid: 1c998780-74dd-4b93-99da-08e99d679310
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Top
+      Guid: 18f77ae2-c8e9-48a6-a101-b8b14d7fb179
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Right
+      Guid: 9fadbb29-a861-468c-90a0-5cf6685af5aa
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 7.unity
+  - NodeName: Adr Demo 10
+    SceneAsset: {fileID: 102900000, guid: 45eb09ef617b9604993532a16a4c39cd, type: 3}
+    SceneAssetGuid: 45eb09ef617b9604993532a16a4c39cd
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 10
+    BuildIndex: -1
+    Guid: b9e9ac29-8e82-418b-b9ab-c8b117e82a84
+    Position: {x: 340, y: 100}
+    PortsData:
+    - Name: Left
+      Guid: 9809a4b1-089f-4bbe-952b-013bc841d1f6
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Right
+      Guid: fd6f29da-4525-4b59-9bdd-e16059372640
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Top
+      Guid: ac1b39bd-b2ca-4990-b0d7-6bd3f1483f36
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 10.unity
+  - NodeName: Adr Demo 11
+    SceneAsset: {fileID: 102900000, guid: 45f8e897006aba747a952a08ce845f3b, type: 3}
+    SceneAssetGuid: 45f8e897006aba747a952a08ce845f3b
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 11
+    BuildIndex: -1
+    Guid: f1cf2cf3-41aa-4a66-b731-4b4122f50b60
+    Position: {x: 370, y: 255}
+    PortsData:
+    - Name: Left
+      Guid: 31450376-b4a9-41c1-8a21-427359ff4588
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Right
+      Guid: f096d973-ff91-4521-b5a4-3e293d3051b1
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 11.unity
+  - NodeName: Adr Demo 12
+    SceneAsset: {fileID: 102900000, guid: be4461a2d1c016c468421eb7dd22187a, type: 3}
+    SceneAssetGuid: be4461a2d1c016c468421eb7dd22187a
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 12
+    BuildIndex: -1
+    Guid: f7abf8f4-cca6-4fa3-abe5-233d1e8f159f
+    Position: {x: 688, y: 191}
+    PortsData:
+    - Name: Left T
+      Guid: 84dd6cbb-66ef-47c9-bcc3-03a505c37100
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Left B
+      Guid: 26670fb3-73cd-4fae-acfb-c8ff9af45cf7
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 12.unity
+  - NodeName: Adr Demo 14
+    SceneAsset: {fileID: 102900000, guid: f5b20970cbb269a48b0a2d6f26127e40, type: 3}
+    SceneAssetGuid: f5b20970cbb269a48b0a2d6f26127e40
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 14
+    BuildIndex: -1
+    Guid: 1b44a355-851d-4c79-bf62-680cdb066b37
+    Position: {x: 266, y: -85}
+    PortsData:
+    - Name: Left
+      Guid: ff583eae-1006-49b1-bffd-fdd11040ed99
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 6c51f37f-ea10-47d9-9e15-0797aeb34b53
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 14.unity
+  - NodeName: Adr Demo 9
+    SceneAsset: {fileID: 102900000, guid: 4596f9b4abd5a1144be9b04160c5530f, type: 3}
+    SceneAssetGuid: 4596f9b4abd5a1144be9b04160c5530f
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 9
+    BuildIndex: -1
+    Guid: 19b39214-354f-4387-b944-53c301b6f8eb
+    Position: {x: -111, y: -85}
+    PortsData:
+    - Name: Left
+      Guid: 7fe57884-7899-4e30-b64a-fcfb10dab405
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 2d0845b6-fe3f-4359-ace4-a73ff40ef342
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Right
+      Guid: 3873bbd5-1c0f-44d1-9a4d-8833328309f5
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 9.unity
+  - NodeName: Adr Demo 2
+    SceneAsset: {fileID: 102900000, guid: 1b0e23f85cb50394a801c2dbdf3b7103, type: 3}
+    SceneAssetGuid: 1b0e23f85cb50394a801c2dbdf3b7103
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 2
+    BuildIndex: -1
+    Guid: 5b87ca08-2031-4578-b3c7-7896a597dd7b
+    Position: {x: -447, y: -85}
+    PortsData:
+    - Name: Left
+      Guid: e330c988-2f64-4855-b638-68784621b9ec
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 0d0cede1-7e3c-4ef0-b63e-c140ac53e52b
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Right
+      Guid: dff96104-4e27-4e16-9eee-920e7e97794d
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 2.unity
+  - NodeName: Adr Demo 15
+    SceneAsset: {fileID: 102900000, guid: bc57eaa15de58644da902cb51fb7e986, type: 3}
+    SceneAssetGuid: bc57eaa15de58644da902cb51fb7e986
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 15
+    BuildIndex: -1
+    Guid: 65bbace9-e1f1-4ce7-9f41-893bbce5ae81
+    Position: {x: -668, y: 51}
+    PortsData:
+    - Name: Bottom
+      Guid: c71ae942-30dc-431c-aa7f-de982fd8ad0a
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Top
+      Guid: 9c8d34ab-4c30-408c-851a-3b9fc8b7bd47
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 15.unity
+  - NodeName: Adr Demo 3
+    SceneAsset: {fileID: 102900000, guid: 6890ed7976cc5494c93d5ac7124f334a, type: 3}
+    SceneAssetGuid: 6890ed7976cc5494c93d5ac7124f334a
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 3
+    BuildIndex: -1
+    Guid: 5f264f23-7afc-429a-87d4-b43d3225fdfb
+    Position: {x: -344, y: 118}
+    PortsData:
+    - Name: Top
+      Guid: e84d5f61-6f81-4123-bd0c-4112b0bf8f8c
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Bottom L
+      Guid: 0abe65e4-5896-4bfc-b444-2c51bc5fc883
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Bottom R
+      Guid: d030cdee-7d75-4b1a-8c3b-c880dfb8a78d
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Left
+      Guid: 539130f8-1fc7-401e-99cb-f9e4b70e567e
+      IsInput: 1
+      IsHorizontal: 1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 3.unity
+  - NodeName: Adr Demo 8
+    SceneAsset: {fileID: 102900000, guid: 8fcb5112ddaefda4ebf00aad96721fdf, type: 3}
+    SceneAssetGuid: 8fcb5112ddaefda4ebf00aad96721fdf
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 8
+    BuildIndex: -1
+    Guid: 05c2c3dd-6cce-4fec-b3c8-a8f018f52d8e
+    Position: {x: 48, y: 76}
+    PortsData:
+    - Name: Top
+      Guid: 270e9d4e-4123-49e4-9b3f-847a12d20cdc
+      IsInput: 1
+      IsHorizontal: 0
+      IsAdditional: 0
+    - Name: Right
+      Guid: 79327688-76ab-4352-b375-21b862d464ea
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 14e145e6-1177-45c2-ae34-05cf42502b75
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 8.unity
+  - NodeName: Adr Demo 1
+    SceneAsset: {fileID: 102900000, guid: d8f32d9c9c7e65543846242257fbd816, type: 3}
+    SceneAssetGuid: d8f32d9c9c7e65543846242257fbd816
+    ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 1
+    BuildIndex: 0
+    Guid: dd231f5d-d07b-49cd-adf3-225efc66c1f5
+    Position: {x: -706, y: -117}
+    PortsData:
+    - Name: Right
+      Guid: f759eb89-47d2-493c-b0e3-d19df1c57940
+      IsInput: 0
+      IsHorizontal: 1
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 2ca239b3-4ac2-48e5-ab2e-fcf8d6cc6269
+      IsInput: 0
+      IsHorizontal: 0
+      IsAdditional: 0
+    Address: 
+  _edgesData:
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: e330c988-2f64-4855-b638-68784621b9ec
+    ToPortGuid: f759eb89-47d2-493c-b0e3-d19df1c57940
+    EdgeGuid: bc1cc022-bd4d-44ab-b5f1-689dc4a5f5ed
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 46f3f7dc-90db-49d6-8793-d57ed71067d9
+    ToPortGuid: d8343c4b-fedf-4d7a-a111-cc7096ef4c4e
+    EdgeGuid: 9b08f7b7-b7b0-4f96-a466-f802cdff3ba5
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 1c998780-74dd-4b93-99da-08e99d679310
+    ToPortGuid: 64a8f543-052f-406d-94c5-fcbcf870d259
+    EdgeGuid: bfe0d789-140a-45d2-aecd-2d3063e8e9c2
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 18f77ae2-c8e9-48a6-a101-b8b14d7fb179
+    ToPortGuid: 14e145e6-1177-45c2-ae34-05cf42502b75
+    EdgeGuid: d61e9adf-9591-4cc9-b93c-aeef48eb6126
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 9809a4b1-089f-4bbe-952b-013bc841d1f6
+    ToPortGuid: 79327688-76ab-4352-b375-21b862d464ea
+    EdgeGuid: 711c7405-dae8-4788-957e-0e8952948ef1
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 31450376-b4a9-41c1-8a21-427359ff4588
+    ToPortGuid: 9fadbb29-a861-468c-90a0-5cf6685af5aa
+    EdgeGuid: 9e7e2134-7ebb-423b-8b91-3889dc2082ba
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 26670fb3-73cd-4fae-acfb-c8ff9af45cf7
+    ToPortGuid: f096d973-ff91-4521-b5a4-3e293d3051b1
+    EdgeGuid: 7ba51159-f43f-442f-8608-45ef42dbd57b
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 7fe57884-7899-4e30-b64a-fcfb10dab405
+    ToPortGuid: dff96104-4e27-4e16-9eee-920e7e97794d
+    EdgeGuid: 93c7710f-fb5f-4bea-a5a6-762604074441
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 84dd6cbb-66ef-47c9-bcc3-03a505c37100
+    ToPortGuid: fd6f29da-4525-4b59-9bdd-e16059372640
+    EdgeGuid: f5d3c7ac-b21d-427d-b3ae-51b134993fd3
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 539130f8-1fc7-401e-99cb-f9e4b70e567e
+    ToPortGuid: 31b36912-460f-44b8-8b2d-9c7dd22faee7
+    EdgeGuid: c9a26293-40a1-4880-bdba-643991baaa67
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: e84d5f61-6f81-4123-bd0c-4112b0bf8f8c
+    ToPortGuid: 0d0cede1-7e3c-4ef0-b63e-c140ac53e52b
+    EdgeGuid: cdec41ab-5269-45ea-a114-d9006c841c7b
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 270e9d4e-4123-49e4-9b3f-847a12d20cdc
+    ToPortGuid: 2d0845b6-fe3f-4359-ace4-a73ff40ef342
+    EdgeGuid: f162e643-0b29-4b01-b3ff-71f0a8a4973d
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 620c45db-626f-48b7-9c9a-6677a2bada82
+    ToPortGuid: 0abe65e4-5896-4bfc-b444-2c51bc5fc883
+    EdgeGuid: 3d64eb06-07ea-4fa4-a164-58c7f2bf67d2
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 5c6ce3d1-ea99-4daf-9d3b-198ed11506cf
+    ToPortGuid: d030cdee-7d75-4b1a-8c3b-c880dfb8a78d
+    EdgeGuid: 68c30746-7de8-4356-b491-d0e24099eb92
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: ff583eae-1006-49b1-bffd-fdd11040ed99
+    ToPortGuid: 3873bbd5-1c0f-44d1-9a4d-8833328309f5
+    EdgeGuid: b8f8cdfb-da5a-4d70-ad9e-43326b0c2a23
+  - TransitionType: 1
+    IsFacingRight: 1
+    FromPortGuid: ac1b39bd-b2ca-4990-b0d7-6bd3f1483f36
+    ToPortGuid: 6c51f37f-ea10-47d9-9e15-0797aeb34b53
+    EdgeGuid: 92478344-051a-478a-975a-2802f574a080
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: d3e96362-ed84-4ad8-9656-32edebdf005e
+    ToPortGuid: c71ae942-30dc-431c-aa7f-de982fd8ad0a
+    EdgeGuid: 0e6df487-a52a-4ca1-aab0-fbb326cb140e
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 9c8d34ab-4c30-408c-851a-3b9fc8b7bd47
+    ToPortGuid: 2ca239b3-4ac2-48e5-ab2e-fcf8d6cc6269
+    EdgeGuid: c1f1416b-9178-48f7-8676-d882ebca9aa9
+  _testResults: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c153c71e3fad4039a2b4b7e89543d599, type: 3}
+  m_Name: Addressables Example
+  m_EditorClassIdentifier: 
+  _scenesData:
+  - SceneName: Adr Demo 6
+    NodeName: Adr Demo 6
+    BuildIndex: -1
+    PortsData:
+    - Name: Right T
+      Guid: 31b36912-460f-44b8-8b2d-9c7dd22faee7
+      IsAdditional: 0
+    - Name: Right B
+      Guid: d8343c4b-fedf-4d7a-a111-cc7096ef4c4e
+      IsAdditional: 0
+    - Name: Top
+      Guid: d3e96362-ed84-4ad8-9656-32edebdf005e
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 6.unity
+  - SceneName: Adr Demo 4
+    NodeName: Adr Demo 4
+    BuildIndex: -1
+    PortsData:
+    - Name: Top
+      Guid: 620c45db-626f-48b7-9c9a-6677a2bada82
+      IsAdditional: 0
+    - Name: Left
+      Guid: 46f3f7dc-90db-49d6-8793-d57ed71067d9
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 4.unity
+  - SceneName: Adr Demo 5
+    NodeName: Adr Demo 5
+    BuildIndex: -1
+    PortsData:
+    - Name: Top
+      Guid: 5c6ce3d1-ea99-4daf-9d3b-198ed11506cf
+      IsAdditional: 0
+    - Name: Right
+      Guid: 64a8f543-052f-406d-94c5-fcbcf870d259
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 5.unity
+  - SceneName: Adr Demo 7
+    NodeName: Adr Demo 7
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: 1c998780-74dd-4b93-99da-08e99d679310
+      IsAdditional: 0
+    - Name: Top
+      Guid: 18f77ae2-c8e9-48a6-a101-b8b14d7fb179
+      IsAdditional: 0
+    - Name: Right
+      Guid: 9fadbb29-a861-468c-90a0-5cf6685af5aa
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 7.unity
+  - SceneName: Adr Demo 10
+    NodeName: Adr Demo 10
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: 9809a4b1-089f-4bbe-952b-013bc841d1f6
+      IsAdditional: 0
+    - Name: Right
+      Guid: fd6f29da-4525-4b59-9bdd-e16059372640
+      IsAdditional: 0
+    - Name: Top
+      Guid: ac1b39bd-b2ca-4990-b0d7-6bd3f1483f36
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 10.unity
+  - SceneName: Adr Demo 11
+    NodeName: Adr Demo 11
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: 31450376-b4a9-41c1-8a21-427359ff4588
+      IsAdditional: 0
+    - Name: Right
+      Guid: f096d973-ff91-4521-b5a4-3e293d3051b1
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 11.unity
+  - SceneName: Adr Demo 12
+    NodeName: Adr Demo 12
+    BuildIndex: -1
+    PortsData:
+    - Name: Left T
+      Guid: 84dd6cbb-66ef-47c9-bcc3-03a505c37100
+      IsAdditional: 0
+    - Name: Left B
+      Guid: 26670fb3-73cd-4fae-acfb-c8ff9af45cf7
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 12.unity
+  - SceneName: Adr Demo 14
+    NodeName: Adr Demo 14
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: ff583eae-1006-49b1-bffd-fdd11040ed99
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 6c51f37f-ea10-47d9-9e15-0797aeb34b53
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 14.unity
+  - SceneName: Adr Demo 9
+    NodeName: Adr Demo 9
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: 7fe57884-7899-4e30-b64a-fcfb10dab405
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 2d0845b6-fe3f-4359-ace4-a73ff40ef342
+      IsAdditional: 0
+    - Name: Right
+      Guid: 3873bbd5-1c0f-44d1-9a4d-8833328309f5
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 9.unity
+  - SceneName: Adr Demo 2
+    NodeName: Adr Demo 2
+    BuildIndex: -1
+    PortsData:
+    - Name: Left
+      Guid: e330c988-2f64-4855-b638-68784621b9ec
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 0d0cede1-7e3c-4ef0-b63e-c140ac53e52b
+      IsAdditional: 0
+    - Name: Right
+      Guid: dff96104-4e27-4e16-9eee-920e7e97794d
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 2.unity
+  - SceneName: Adr Demo 15
+    NodeName: Adr Demo 15
+    BuildIndex: -1
+    PortsData:
+    - Name: Bottom
+      Guid: c71ae942-30dc-431c-aa7f-de982fd8ad0a
+      IsAdditional: 0
+    - Name: Top
+      Guid: 9c8d34ab-4c30-408c-851a-3b9fc8b7bd47
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 15.unity
+  - SceneName: Adr Demo 3
+    NodeName: Adr Demo 3
+    BuildIndex: -1
+    PortsData:
+    - Name: Top
+      Guid: e84d5f61-6f81-4123-bd0c-4112b0bf8f8c
+      IsAdditional: 0
+    - Name: Bottom L
+      Guid: 0abe65e4-5896-4bfc-b444-2c51bc5fc883
+      IsAdditional: 0
+    - Name: Bottom R
+      Guid: d030cdee-7d75-4b1a-8c3b-c880dfb8a78d
+      IsAdditional: 0
+    - Name: Left
+      Guid: 539130f8-1fc7-401e-99cb-f9e4b70e567e
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 3.unity
+  - SceneName: Adr Demo 8
+    NodeName: Adr Demo 8
+    BuildIndex: -1
+    PortsData:
+    - Name: Top
+      Guid: 270e9d4e-4123-49e4-9b3f-847a12d20cdc
+      IsAdditional: 0
+    - Name: Right
+      Guid: 79327688-76ab-4352-b375-21b862d464ea
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 14e145e6-1177-45c2-ae34-05cf42502b75
+      IsAdditional: 0
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 8.unity
+  - SceneName: Adr Demo 1
+    NodeName: Adr Demo 1
+    BuildIndex: 0
+    PortsData:
+    - Name: Right
+      Guid: f759eb89-47d2-493c-b0e3-d19df1c57940
+      IsAdditional: 0
+    - Name: Bottom
+      Guid: 2ca239b3-4ac2-48e5-ab2e-fcf8d6cc6269
+      IsAdditional: 0
+    Address: 
+  _connectionsData:
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: e330c988-2f64-4855-b638-68784621b9ec
+    ToPortGuid: f759eb89-47d2-493c-b0e3-d19df1c57940
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 46f3f7dc-90db-49d6-8793-d57ed71067d9
+    ToPortGuid: d8343c4b-fedf-4d7a-a111-cc7096ef4c4e
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 1c998780-74dd-4b93-99da-08e99d679310
+    ToPortGuid: 64a8f543-052f-406d-94c5-fcbcf870d259
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 18f77ae2-c8e9-48a6-a101-b8b14d7fb179
+    ToPortGuid: 14e145e6-1177-45c2-ae34-05cf42502b75
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 9809a4b1-089f-4bbe-952b-013bc841d1f6
+    ToPortGuid: 79327688-76ab-4352-b375-21b862d464ea
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 31450376-b4a9-41c1-8a21-427359ff4588
+    ToPortGuid: 9fadbb29-a861-468c-90a0-5cf6685af5aa
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 26670fb3-73cd-4fae-acfb-c8ff9af45cf7
+    ToPortGuid: f096d973-ff91-4521-b5a4-3e293d3051b1
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 7fe57884-7899-4e30-b64a-fcfb10dab405
+    ToPortGuid: dff96104-4e27-4e16-9eee-920e7e97794d
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 84dd6cbb-66ef-47c9-bcc3-03a505c37100
+    ToPortGuid: fd6f29da-4525-4b59-9bdd-e16059372640
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 539130f8-1fc7-401e-99cb-f9e4b70e567e
+    ToPortGuid: 31b36912-460f-44b8-8b2d-9c7dd22faee7
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: e84d5f61-6f81-4123-bd0c-4112b0bf8f8c
+    ToPortGuid: 0d0cede1-7e3c-4ef0-b63e-c140ac53e52b
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 270e9d4e-4123-49e4-9b3f-847a12d20cdc
+    ToPortGuid: 2d0845b6-fe3f-4359-ace4-a73ff40ef342
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 620c45db-626f-48b7-9c9a-6677a2bada82
+    ToPortGuid: 0abe65e4-5896-4bfc-b444-2c51bc5fc883
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: 5c6ce3d1-ea99-4daf-9d3b-198ed11506cf
+    ToPortGuid: d030cdee-7d75-4b1a-8c3b-c880dfb8a78d
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: ff583eae-1006-49b1-bffd-fdd11040ed99
+    ToPortGuid: 3873bbd5-1c0f-44d1-9a4d-8833328309f5
+  - TransitionType: 1
+    IsFacingRight: 1
+    FromPortGuid: ac1b39bd-b2ca-4990-b0d7-6bd3f1483f36
+    ToPortGuid: 6c51f37f-ea10-47d9-9e15-0797aeb34b53
+  - TransitionType: 0
+    IsFacingRight: 0
+    FromPortGuid: d3e96362-ed84-4ad8-9656-32edebdf005e
+    ToPortGuid: c71ae942-30dc-431c-aa7f-de982fd8ad0a
+  - TransitionType: 1
+    IsFacingRight: 0
+    FromPortGuid: 9c8d34ab-4c30-408c-851a-3b9fc8b7bd47
+    ToPortGuid: 2ca239b3-4ac2-48e5-ab2e-fcf8d6cc6269
+  _hasErrors: 0
+  _editorData: {fileID: -2591101892737593160}
