@@ -16,8 +16,6 @@ namespace AddressablesDemo
 
             _manager.TransitionStarted += OnTransitionStarted;
             _manager.SceneLoaded += OnSceneLoaded;
-
-            Debug.Log($"[PlayerLifecycleService.PlayerLifecycleService line 20] {controller == null}");
             
             _controller.EnableMovement();
         }
@@ -39,12 +37,7 @@ namespace AddressablesDemo
 
             _controller.EnableMovement();
         }
-
-        private void OnTransitionEnded()
-        {
-
-        }
-
+        
         public void Dispose()
         {
             _manager.TransitionStarted -= OnTransitionStarted;
