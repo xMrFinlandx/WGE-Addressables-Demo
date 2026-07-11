@@ -69,11 +69,6 @@ namespace AddressablesDemo
             _isControllerEnabled = false;
         }
         
-        private void Awake()
-        {
-            DisableMovement();
-        }
-        
         private void FixedUpdate()
         {
             _isGrounded = IsGrounded();

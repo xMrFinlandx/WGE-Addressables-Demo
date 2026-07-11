@@ -1,52 +1,54 @@
-﻿using System;
-using AddressablesDemo;
+using System;
 using UnityEngine;
 using WorldGraphEditor;
-using Object = UnityEngine.Object;
 
 namespace AddressablesDemo
 {
     public class PlayerLifecycleService : IDisposable
     {
         private readonly ITransitionManager _manager;
-        private readonly AddressablesPlayerController _playerPrefab;
-        private AddressablesPlayerController _playerController;
-        
-        public PlayerLifecycleService(ITransitionManager manager, AddressablesPlayerController playerController)
+        private readonly AddressablesPlayerController _controller;
+
+        public PlayerLifecycleService(ITransitionManager manager, AddressablesPlayerController controller)
         {
             _manager = manager;
-            _playerPrefab = playerController;
+            _controller = controller;
+
+            _manager.TransitionStarted += OnTransitionStarted;
+            _manager.SceneLoaded += OnSceneLoaded;
+
+            Debug.Log($"[PlayerLifecycleService.PlayerLifecycleService line 20] {controller == null}");
             
-            _manager.TransitionEnded += SpawnPlayer;
-            _manager.TransitionStarted += PullPlayer;
-            SpawnPlayer();
+            _controller.EnableMovement();
         }
 
-        private void PullPlayer()
+        private void OnTransitionStarted()
         {
-            if (_playerController == null)
-                return;
+            _controller.DisableMovement();
 
-            _playerController.DisableMovement();
-            
             if (_manager.InputTransitionComponent is IPuller puller)
-                _playerController.SetPullForce(puller.GetPullData());
+                _controller.SetPullForce(puller.GetPullData());
         }
 
-        private void SpawnPlayer()
+        private void OnSceneLoaded()
         {
-            _playerController = Object.Instantiate(_playerPrefab, _manager.NextSpawnPosition, Quaternion.identity);
-
+            _controller.transform.position = _manager.NextSpawnPosition;
+            
             if (_manager.OutputTransitionComponent is IPusher pusher)
-                _playerController.SetPushForce(pusher.GetPushData());
+                _controller.SetPushForce(pusher.GetPushData());
 
-            _playerController.EnableMovement();
+            _controller.EnableMovement();
+        }
+
+        private void OnTransitionEnded()
+        {
+
         }
 
         public void Dispose()
         {
-            _manager.TransitionEnded -= SpawnPlayer;
-            _manager.TransitionStarted -= PullPlayer;
+            _manager.TransitionStarted -= OnTransitionStarted;
+            _manager.SceneLoaded -= OnSceneLoaded;
         }
     }
 }

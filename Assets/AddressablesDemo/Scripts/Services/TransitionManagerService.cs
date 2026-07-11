@@ -2,7 +2,6 @@
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using WorldGraphEditor;
 
 namespace AddressablesDemo
@@ -12,7 +11,7 @@ namespace AddressablesDemo
         public IWorldGraph Graph { get; }
         public ITransitionComponent OutputTransitionComponent { get; private set; }
         public ITransitionComponent InputTransitionComponent { get; private set; }
-        
+
         public event Action TransitionStarted;
         public event Action SceneLoaded;
         public event Action TransitionEnded;
@@ -22,14 +21,16 @@ namespace AddressablesDemo
         private readonly CancellationTokenSource _cts;
         private readonly IScreenFadeService _screenFadeService;
         private readonly IGraphDataService _graphDataService;
-        
-        public TransitionManagerService(IWorldGraph graph, IScreenFadeService screenFadeService, IGraphDataService graphDataService)
+        private readonly ISceneLoader _sceneLoader;
+
+        public TransitionManagerService(IWorldGraph graph, IScreenFadeService screenFadeService, IGraphDataService graphDataService, ISceneLoader sceneLoader)
         {
             Graph = graph;
             _cts = new CancellationTokenSource();
             _screenFadeService = screenFadeService;
             _graphDataService = graphDataService;
-        }   
+            _sceneLoader = sceneLoader;
+        }
         
         public async Task GoToAsync(string currentPortGuid, string targetPortGuid, ITransitionContext context = null)
         {
@@ -68,9 +69,9 @@ namespace AddressablesDemo
                 await _screenFadeService.ShowAsync(_cts.Token);
                 
                 _graphDataService.SetPortVisited(data.CurrentPassageGuid);
-
-                await SceneManager.LoadSceneAsync(data.TargetSceneBuildIndex);
-
+                
+                await LoadTargetSceneAsync(data);
+                
                 OutputTransitionComponent = TransitionComponentUtility.FindByGuid(data.TargetPassageGuid);
                 NextSpawnPosition = OutputTransitionComponent?.GetSpawnPosition() ?? Vector3.zero;
 
@@ -97,6 +98,17 @@ namespace AddressablesDemo
             {
                 Debug.LogException(e);
             }
+        }
+
+        private async Task LoadTargetSceneAsync(RuntimeTransitionData data)
+        {
+            if (string.IsNullOrEmpty(data.TargetSceneAddress))
+            {
+                Debug.LogError("Target scene has no Addressables address");
+                return;
+            }
+
+            await _sceneLoader.LoadAsync(data.TargetSceneAddress, _cts.Token);
         }
 
         public void Dispose()

@@ -304,7 +304,7 @@ MonoBehaviour:
     SceneAsset: {fileID: 102900000, guid: d8f32d9c9c7e65543846242257fbd816, type: 3}
     SceneAssetGuid: d8f32d9c9c7e65543846242257fbd816
     ScenePath: Assets/AddressablesDemo/Scenes/Adr Demo 1
-    BuildIndex: 0
+    BuildIndex: -1
     Guid: dd231f5d-d07b-49cd-adf3-225efc66c1f5
     Position: {x: -706, y: -117}
     PortsData:
@@ -318,7 +318,7 @@ MonoBehaviour:
       IsInput: 0
       IsHorizontal: 0
       IsAdditional: 0
-    Address: 
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 1.unity
   _edgesData:
   - TransitionType: 0
     IsFacingRight: 0
@@ -593,7 +593,7 @@ MonoBehaviour:
     Address: Assets/AddressablesDemo/Scenes/Adr Demo 8.unity
   - SceneName: Adr Demo 1
     NodeName: Adr Demo 1
-    BuildIndex: 0
+    BuildIndex: -1
     PortsData:
     - Name: Right
       Guid: f759eb89-47d2-493c-b0e3-d19df1c57940
@@ -601,7 +601,7 @@ MonoBehaviour:
     - Name: Bottom
       Guid: 2ca239b3-4ac2-48e5-ab2e-fcf8d6cc6269
       IsAdditional: 0
-    Address: 
+    Address: Assets/AddressablesDemo/Scenes/Adr Demo 1.unity
   _connectionsData:
   - TransitionType: 0
     IsFacingRight: 0

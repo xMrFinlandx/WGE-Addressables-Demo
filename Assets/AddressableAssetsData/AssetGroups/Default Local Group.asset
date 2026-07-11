@@ -75,6 +75,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8f32d9c9c7e65543846242257fbd816
+    m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5b20970cbb269a48b0a2d6f26127e40
     m_Address: Assets/AddressablesDemo/Scenes/Adr Demo 14.unity
     m_ReadOnly: 0
